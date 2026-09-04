@@ -24,11 +24,20 @@
 - 🟡 黄色：50% ~ 80%
 - 🔴 红色：> 80%
 
-## 配置
+## 安装
 
-> 需 Python 标准库，无第三方依赖。
+> 仅需 Python 标准库，无第三方依赖。
 
-在 Claude Code 中配置 `settings.json`：
+**快捷安装**
+
+直接运行脚本进行配置：
+~~~python
+python3 install.py
+~~~
+
+**手动安装**
+
+配置 `~/.claude/settings.json`，加入以下内容：
 
 ```json
 {
